@@ -1,9 +1,0 @@
-
-eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
-
-server.port=8091
-spring.data.mongodb.username = alibou
-spring.data.mongodb.host = localhost
-spring.data.mongodb.port = 27017
-spring.data.mongodb.database = 27017
-spring.data.mongodb.authentication-database = admin
