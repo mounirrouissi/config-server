@@ -19,8 +19,8 @@ spring:
           uri: lb:http://ORDER
           predicates:
             - Path=/api/v1/order-lines/**
-        - id: product
-          uri: lb:http://PRODUCT
+        - id: inventory
+          uri: lb:http://INVENTORY
           predicates:
             - Path=/api/v1/products/**
         - id: payment
